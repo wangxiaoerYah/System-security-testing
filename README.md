@@ -1,7 +1,7 @@
 # crack
 >端口服务爆破及目标扫描(兼容Debian、Centos、Ubuntu、Kali、Mint)
->声明:写这个脚本并无它意，只是为了简便安全测试人员，提升系统安全性，战场没有怜悯之心，你若捡起手中的武器，你将犯下滔天大错。
->用户使用该脚本所产生的法律后果自行承担，本站概不负责。
+>>声明:写这个脚本并无它意，只是为了简便安全测试人员，提升系统安全性，战场没有怜悯之心，你若捡起手中的武器，你将犯下滔天大错。
+>>用户使用该脚本所产生的法律后果自行承担，本站概不负责。
 >>容器运行方式根目录自带`user.txt`和`password.txt`两个字典，同时git下也保存了用户名字典文件，你可以自定义字典使用
 
 ***支持两种爆破方式***
@@ -25,8 +25,8 @@
   - [x]  7.mssql爆破
   - [x]  8.其他协议爆破
   
-  >目前集成上去的协议有:
-  >>asterisk cvs cisco-enable firebird ftp ftps icq imap irc ldap2 nntp mssql
+>目前集成上去的协议有:
+>>asterisk cvs cisco-enable firebird ftp ftps icq imap irc ldap2 nntp mssql
     mysql oracle-sid pcanywhere pcnfs pop3 rdp postgres radmin2  rexec rlogin rpcap rtsp 
     sip smb smtp smtp-enum socks5 ssh sshkey svn teamspeak vnc xmpp
 
