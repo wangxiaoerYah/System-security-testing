@@ -48,6 +48,7 @@ bash -c "$(curl -fsSl https://blog.linux-code.com/scripts/crack.sh)"
 docker run -ti --name crack sebastion/crack:1.0 crack.sh
 ```
 ![](https://blog.linux-code.com/wp-content/uploads/2018/12/crack-show2.png)
+
 ***进入容器运行:***
 ```shell
 docker run -ti -d --name crack1 sebastion/crack:1.0 /bin/bash
@@ -55,6 +56,7 @@ docker exec -ti $(awk '{FS="[ ]+"}{if(NR==2){print $1}}'< <(docker ps -l)) /bin/
 bash crack.sh
 ```
 ![](https://blog.linux-code.com/wp-content/uploads/2018/12/docker-show.png)
+
 ***一次性容器运行:***
 ```shell
 docker run --rm -ti sebastion/crack:1.0 /crack.sh
