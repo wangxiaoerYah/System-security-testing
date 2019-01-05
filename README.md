@@ -1,4 +1,4 @@
-# crack
+# crack安全测试脚本
 >端口服务爆破及目标扫描(兼容Debian、Centos、Ubuntu、Kali、Mint)
 >>声明:写这个脚本并无它意，只是为了简便安全测试人员，提升系统安全性，战场没有怜悯之心，你若捡起手中的武器，你将犯下滔天大错。
 >>用户使用该脚本所产生的法律后果自行承担，本站概不负责。
@@ -30,7 +30,7 @@
     mysql oracle-sid pcanywhere pcnfs pop3 rdp postgres radmin2  rexec rlogin rpcap rtsp 
     sip smb smtp smtp-enum socks5 ssh sshkey svn teamspeak vnc xmpp
 
-# 运行方式
+## 运行方式
 
 ***本地运行:***
 ```shell
