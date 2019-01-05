@@ -16,7 +16,7 @@ bash crack.sh
 ```shell
 bash -c "$(curl -fsSl https://blog.linux-code.com/scripts/crack.sh)"
 ```
-
+[![run png]](https://blog.linux-code.com/wp-content/uploads/2018/12/crack-show2.png)
 ***docker镜像运行:***
 ```shell
 docker run -ti --name crack sebastion/crack:1.0 crack.sh
