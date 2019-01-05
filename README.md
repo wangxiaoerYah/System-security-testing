@@ -6,22 +6,22 @@
 **运行**
 
 ***脚本运行:***
-```bash
+```shell
 bash crack.sh
 ```
 
 ***docker镜像运行:***
-```bash
-$ docker run -ti --name crack sebastion/crack:1.0 crack.sh
+```shell
+docker run -ti --name crack sebastion/crack:1.0 crack.sh
 ```
 ***进入容器运行:***
-```bash
-$ docker run -ti -d --name crack1 sebastion/crack:1.0 /bin/bash
+```shell
+docker run -ti -d --name crack1 sebastion/crack:1.0 /bin/bash
 $ docker exec -ti $(awk '{FS="[ ]+"}{if(NR==2){print $1}}'< <(docker ps -l)) /bin/bash
 $ bash crack.sh
 ```
 ***一次性容器运行:***
 ```bash
-$ docker run --rm -ti sebastion/crack:1.0 /crack.sh
+docker run --rm -ti sebastion/crack:1.0 /crack.sh
 ```
 [我的博客](http://blog.linux-code.com "悬停显示")
