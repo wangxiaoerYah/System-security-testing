@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/debian-support-orange.svg)](https://www.debian.org)
 >支持端口服务爆破及目标扫描(兼容Debian、Centos、Ubuntu、Kali、Mint)
 >>声明:写这个脚本并无它意，只是为了简便安全测试人员，提升系统安全性，战场没有怜悯之心，你若捡起手中的武器，你将犯下滔天大错。
->>用户使用该脚本所产生的法律后果自行承担，本站概不负责。
+>>用户使用该脚本所产生的法律后果自行承担，笔者概不负责。
 >>容器运行方式根目录自带`user.txt`和`password.txt`两个字典，同时git下也保存了用户名字典文件，你可以自定义字典使用
 
 ***支持两种爆破方式***
@@ -42,7 +42,6 @@ git clone https://github.com/RokasUrbelis/system_safety_test.git
 cd crack
 bash crack.sh
 ```
-
 ***curl运行:***
 ```shell
 bash -c "$(curl -fsSl https://blog.linux-code.com/scripts/crack.sh)"
