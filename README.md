@@ -64,7 +64,8 @@ bash crack.sh
 ```shell
 docker run --rm -ti sebastion/crack:1.0 /crack.sh
 ```
-![](https://blog.linux-code.com/wp-content/uploads/2018/12/docker-show2-676x640.png)
+![](https://blog.linux-code.com/wp-content/uploads/2018/12/docker-show2.png)
+
 ***使用Dockerfile构建镜像并运行容器:***
 ```shell
 git clone https://github.com/RokasUrbelis/system_safety_test.git
