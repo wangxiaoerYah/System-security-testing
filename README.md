@@ -16,19 +16,21 @@ bash crack.sh
 ```shell
 bash -c "$(curl -fsSl https://blog.linux-code.com/scripts/crack.sh)"
 ```
-![](https://blog.linux-code.com/wp-content/uploads/2018/12/crack-show2.png)
 ***docker镜像运行:***
 ```shell
 docker run -ti --name crack sebastion/crack:1.0 crack.sh
 ```
+![](https://blog.linux-code.com/wp-content/uploads/2018/12/crack-show2.png)
 ***进入容器运行:***
 ```shell
 docker run -ti -d --name crack1 sebastion/crack:1.0 /bin/bash
-$ docker exec -ti $(awk '{FS="[ ]+"}{if(NR==2){print $1}}'< <(docker ps -l)) /bin/bash
-$ bash crack.sh
+docker exec -ti $(awk '{FS="[ ]+"}{if(NR==2){print $1}}'< <(docker ps -l)) /bin/bash
+bash crack.sh
 ```
+![](https://blog.linux-code.com/wp-content/uploads/2018/12/docker-show.png)
 ***一次性容器运行:***
 ```bash
 docker run --rm -ti sebastion/crack:1.0 /crack.sh
 ```
+![](https://blog.linux-code.com/wp-content/uploads/2018/12/docker-show2.png)
 欢迎访问[我的博客](http://blog.linux-code.com "悬停显示"):blush:
