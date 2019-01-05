@@ -3,21 +3,21 @@
 >声明:写这个脚本并无它意，只是为了简便安全测试人员，提升系统安全性，战场没有怜悯之心，你若捡起手中的武器，你将犯下滔天大错。
 >用户使用该脚本所产生的法律后果自行承担，本站概不负责。
 
-**`运行方式`**
+# 运行方式
 
-_本地运行:_
+***本地运行:***
 ```shell
 git clone https://github.com/RokasUrbelis/crack.git 
 cd crack
 bash crack.sh
 ```
 
-_curl运行:_
+***curl运行:***
 ```shell
 bash -c "$(curl -fsSl https://blog.linux-code.com/scripts/crack.sh)"
 ```
 
-_docker镜像运行:_
+***docker镜像运行:***
 ```shell
 docker run -ti --name crack sebastion/crack:1.0 crack.sh
 ```
