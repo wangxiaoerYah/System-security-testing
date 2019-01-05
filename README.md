@@ -15,7 +15,7 @@ bash crack.sh
 docker run -ti --name crack sebastion/crack:1.0 crack.sh
 ```
 ***进入容器运行:***
-```bash
+```java
 docker run -ti -d --name crack1 sebastion/crack:1.0 /bin/bash
 docker exec -ti $(awk '{FS="[ ]+"}{if(NR==2){print $1}}'< <(docker ps -l)) /bin/bash
 bash crack.sh
