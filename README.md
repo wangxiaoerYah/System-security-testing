@@ -34,7 +34,7 @@
 
 ***本地运行:***
 ```shell
-git clone https://github.com/RokasUrbelis/crack.git 
+git clone https://github.com/RokasUrbelis/system_safety_test.git 
 cd crack
 bash crack.sh
 ```
