@@ -73,4 +73,4 @@ docker run --ti --rm crack:1.0
 ## Follow Me
 * Email: lonlyterminals@gmail.com
 * QICQ ：1798996632
-以及[我的博客](https://blog.linux-code.com "blog.linux-code.com"):blush:（可订阅本站RSS了解更多技术文章）
+* 以及[我的博客](https://blog.linux-code.com "blog.linux-code.com"):blush:（可订阅本站RSS了解更多技术文章）
