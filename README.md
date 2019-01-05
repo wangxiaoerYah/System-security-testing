@@ -10,12 +10,26 @@
   - [x] 2.操作系统识别
   - [x] 3.指定端口或端口范围扫描
   - [x] 4.漏洞扫描
-        5.WHOIS查询
-        6.探测指定网段所有在线主机
-        7.主机批量扫描
-        8.调用其它脚本扫描
+  - [x] 5.WHOIS查询
+  - [x] 6.探测指定网段所有在线主机
+  - [x] 7.主机批量扫描
+  - [x] 8.调用其它脚本扫描
 
 * hydra
+  - [x] 1.SSH爆破
+  - [x]  2.Redesktop爆破
+  - [x]  3.FTP爆破
+  - [x]  4.Telnet爆破
+  - [x]  5.MySql爆破
+  - [x]  6.smb爆破
+  - [x]  7.mssql爆破
+  - [x]  8.其他协议爆破
+  
+  >目前集成上去的协议有:
+  >>asterisk cvs cisco-enable firebird ftp ftps icq imap irc ldap2 nntp mssql
+    mysql oracle-sid pcanywhere pcnfs pop3 rdp postgres radmin2  rexec rlogin rpcap rtsp 
+    sip smb smtp smtp-enum socks5 ssh sshkey svn teamspeak vnc xmpp
+
 # 运行方式
 
 ***本地运行:***
