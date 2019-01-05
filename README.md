@@ -24,3 +24,4 @@ $ bash crack.sh
 ```bash
 $ docker run --rm -ti sebastion/crack:1.0 /crack.sh
 ```
+[我的博客](http://blog.linux-code.com "悬停显示")
