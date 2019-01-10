@@ -1,7 +1,7 @@
 # System safety test
 [![](https://img.shields.io/badge/nmap-7.7-blue.svg)](https://nmap.org)
 [![](https://img.shields.io/badge/hydra-8.6-red.svg)](https://www.thc.org)
-[![](https://img.shields.io/badge/bash-license-black.svg)](https://www.debian.org)
+[![](https://img.shields.io/badge/Bash-Language-black.svg)](https://www.debian.org)
 [![](https://img.shields.io/badge/docker-18.09-brightgreen.svg)](https://hub.docker.com)
 [![](https://img.shields.io/badge/debian-support-orange.svg)](https://www.debian.org)
 [![](https://img.shields.io/github/stars/RokasUrbelis/system_safety_test.svg?label=Stars&style=social)](https://github.com/RokasUrbelis/system_safety_test)
