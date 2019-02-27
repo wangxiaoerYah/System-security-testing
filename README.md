@@ -78,6 +78,6 @@ docker build -t crack:1.0 .
 docker run --ti --rm crack:1.0
 ```
 ## Follow Me
-* Email: lonlyterminals@gmail.com
+* Email: Rokas.Yang@gmail.com
 * QICQ ：1798996632
-* And [blog](https://blog.linux-code.com "blog.linux-code.com"):blush:（Subscribe to our RSS feed for more technical articles）
+* And [Blog](https://blog.linux-code.com "blog.linux-code.com"):blush:（Subscribe to our RSS feed for more technical articles）
