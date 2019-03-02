@@ -25,7 +25,7 @@
   - [x] 8.Call any nmap scripts to scanning
 
 * hydra
-  - [x] 1.SSH brute
+  - [x]  1.SSH brute
   - [x]  2.Redesktop brute
   - [x]  3.FTP brute
   - [x]  4.Telnet brute
