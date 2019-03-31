@@ -1,4 +1,4 @@
-# System safety test
+# System security test
 [![](https://img.shields.io/badge/nmap-7.7-blue.svg)](https://nmap.org)
 [![](https://img.shields.io/badge/hydra-8.6-red.svg)](https://www.thc.org)
 [![](https://img.shields.io/badge/Bash-Language-black.svg)](https://www.debian.org)
