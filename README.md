@@ -43,7 +43,7 @@
 
 ***git:***
 ```shell
-git clone https://github.com/RokasUrbelis/system_safety_test.git 
+git clone https://github.com/RokasUrbelis/system_security_testing.git 
 cd crack
 bash crack.sh
 ```
