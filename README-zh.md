@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/Bash-Language-black.svg)](https://www.debian.org)
 [![](https://img.shields.io/badge/docker-18.09-brightgreen.svg)](https://hub.docker.com)
 [![](https://img.shields.io/badge/debian-support-orange.svg)](https://www.debian.org)
-[![](https://img.shields.io/github/stars/RokasUrbelis/system_safety_test.svg?label=Stars&style=social)](https://github.com/RokasUrbelis/system_safety_test)
+[![](https://img.shields.io/github/stars/RokasUrbelis/system_safety_test.svg?label=Stars&style=social)](https://github.com/RokasUrbelis/System-security-testing)
 >支持端口服务爆破及目标扫描(兼容Debian、Centos、Ubuntu、Kali、Mint)
 
 >声明:写这个脚本并无它意，只是为了简便安全测试人员，提升系统安全性，战场没有怜悯之心，你若捡起手中的武器，你将犯下滔天大错。
