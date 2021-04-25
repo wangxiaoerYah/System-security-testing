@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/Bash-Language-black.svg)](https://www.debian.org)
 [![](https://img.shields.io/badge/docker-18.09-brightgreen.svg)](https://hub.docker.com)
 [![](https://img.shields.io/badge/debian-support-orange.svg)](https://www.debian.org)
-[![](https://img.shields.io/github/stars/RokasUrbelis/system_safety_test.svg?label=Stars&style=social)](https://github.com/RokasUrbelis/system_safety_test)
+[![](https://img.shields.io/github/stars/RokasUrbelis/system_safety_test.svg?label=Stars&style=social)](https://github.com/RokasUrbelis/System-security-testing)
 >支持端口服务爆破及目标扫描(兼容Debian、Centos、Ubuntu、Kali、Mint)
 
 >声明:写这个脚本并无它意，只是为了简便安全测试人员，提升系统安全性，战场没有怜悯之心，你若捡起手中的武器，你将犯下滔天大错。
@@ -77,6 +77,6 @@ docker build -t crack:1.0 .
 docker run --ti --rm crack:1.0
 ```
 ## Follow Me
-* Email: lonlyterminals@gmail.com
+* Email: Rokas.yang@gmail.com
 * QICQ ：1798996632
 * 以及[我的博客](https://blog.linux-code.com "blog.linux-code.com"):blush:（可订阅本站RSS了解更多技术文章）
